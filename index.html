@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--head-->   
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jin & Jinly</title>
+  </head>
+
+<!--header-->
+<header>
+    <span class="span-background title"> 
+        <h1>Jin Yang</h1>
+    </span>
+    <nav>
+        <ul class="nav-highlights">
+            <li>
+                <!-- link elements -->
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#work">Work</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+            <li> <!-- resume download link-->
+                <a href="./assets/resume/Jin's Resume.pdf" download>Get My Resume</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!--main body content-->
+<body>
+    <section class="hero">
+        <div class="hero-subtitle">
+            <span class="span-background picture">Hello hello!</span><!--the sub on ribbon picture -->
+    </section>
+
+    <!--about me part-->    
+    <article>
+        <div id="about-me" class="about-me-wrapper">
+            <div class="about-me-matrix">    
+                <div class="about-me-title">
+                <h2>About Me</h2>
+                </div>    
+                <div class="about-me-p">                
+                <p> Dedicated leaner focused on supporting faculty with various needs. Reflective teaching professional, engaging others with a positive attitude. trilingual candidate and passion in a educational related career. </p>
+                </div>
+            <div>
+        </div>    
+    </article>
+
+    <!--work part-->
+    <article>
+        <div id="work" class="work-wrapper">
+            <div class="work-matrix">    
+                <div class="work-item work-title">
+                <h2>work</h2>    
+                </div>
+                <!--horiseon as a big icon on the top row-->
+                <div onclick="projectClicked('horiseon')" class="work-project challenge1" alt="image of the Horiseon Page" title="Horiseon" target="_blank" style="cursor: pointer;">
+                    <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
+                        <h3>Horiseon</h3>
+                        <span class="lower-text">HTML/CSS</span> <!-- desciption to each work item -->
+                    </span>
+                </div>
+
+                <!--a 2 lined matrix for future comming works-->
+                <!--pass word generator-->
+                <div onclick="projectClicked('work-project password-generator')" class="work-project password-generator" alt="image of the Password Generator">
+                    <span class="span-background">
+                        <h3>Password Generator</h3>
+                        <span class="lower-text">Javascript</span> <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--place holder1-->
+                <div onclick="projectClicked('comming-soon')" class="place-holder1" alt="comming soon image">
+                    <span class="span-background">
+                        <h3>Comming Soon</h3>
+                        <span class="lower-text">Unknow</span> <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--place holder2-->
+                <div onclick="projectClicked('comming-soon')" class="place-holder2" alt="comming soon image">
+                    <span class="span-background">
+                        <h3>Comming Soon</h3>
+                        <span class="lower-text">Unknow</span> <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--place holder3-->
+                <div onclick="projectClicked('comming-soon')" class="place-holder3" alt="comming soon image">
+                    <span class="span-background">
+                        <h3>Comming Soon</h3>
+                        <span class="lower-text">Unknow</span> <!-- description label to each work item -->
+                    </span>
+                </div>
+            </div>
+        </div>    
+    </article>
+    <!--a script for click link this sees click as a input-->
+    <script> 
+        function projectClicked(input) { 
+            var input = input; 
+            if (input == "horiseon") {
+                window.open("https://jinlly.github.io");
+            } else {
+                return true;
+            }
+        };     
+    </script>
+</body>
+
+<!--footer grid matrix-->
+<footer>
+    <div id="contact-me" class="footer-wrapper">
+        <div class="footer-matrix"> 
+            <div class="footer-matrix title">  
+                <h2>Contact Me</h2>
+            </div>
+            <div class="footer-matrix-item phone">
+                <a href="tel:426-503-6214" class="nav-highlights"><h2>426-503-6214<h2></a>
+            </div>
+            <div class="footer-matrix-item email"> 
+                <a href="https://yiciluo2@gmail.com"><h2>yiciluo2@gmail.com<h2></a>
+            </div>
+            <div class="footer-matrix-item git-hub"> 
+                <a href="https://github.com/Jinlly" target="_blank"><h2>GitHub<h2></a>
+            </div>
+        </div>
+    </div>
+</footer>
