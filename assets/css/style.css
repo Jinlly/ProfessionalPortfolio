@@ -249,10 +249,10 @@ body {
     opacity: 0.8;
 }
 
-.place-holder2 {
+.easy-poketbook {
     grid-column: 2 /span 1;
     grid-row: 10 / span 3;
-    background-image: url("../images/comming-soon.jpg");
+    background-image: url("../images/ET.PNG");
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -262,7 +262,7 @@ body {
     border: .20vw solid var(--lightskyblue);
 }
 
-.place-holder2:hover {
+.easy-poketbook:hover {
     /*highlight when hover*/
     opacity: 0.8;
 }
