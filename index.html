@@ -11,7 +11,7 @@
 
 <!--header-->
 <header>
-    <span class="span-background title"> 
+    <span class="span-background title">
         <h1>Jin Yang</h1>
     </span>
     <nav>
@@ -51,7 +51,9 @@
                     <h2>About Me</h2>
                 </div>
                 <div class="about-me-p">
-                    <p> Dedicated leaner focused on supporting faculty with various needs. Reflective teaching professional, engaging others with a positive attitude. trilingual candidate and passion in a educational related career. </p>
+                    <p> Dedicated leaner focused on supporting faculty with various needs. Reflective teaching
+                        professional, engaging others with a positive attitude. trilingual candidate and passion in a
+                        educational related career. </p>
                 </div>
                 <div>
                 </div>
@@ -65,21 +67,24 @@
                     <h2>work</h2>
                 </div>
                 <!--horiseon as a big icon on the top row-->
-                <div onclick="projectClicked('horiseon')" class="work-project challenge1" alt="image of the Horiseon Page" title="Horiseon" target="_blank" style="cursor: pointer;">
-                    <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
+                <div onclick="projectClicked('horiseon')" class="work-project challenge1"
+                    alt="image of the Horiseon Page" title="Horiseon" target="_blank" style="cursor: pointer;">
+                    <span class="span-background">
+                        <!-- Span added to contain h3, lower text and wrapped background -->
                         <h3>Horiseon</h3>
                         <span class="lower-text">HTML/CSS</span>
-                    <!-- desciption to each work item -->
+                        <!-- desciption to each work item -->
                     </span>
                 </div>
 
                 <!--a 2 lined matrix for future comming works-->
                 <!--pass word generator-->
-                <div onclick="projectClicked('work-project password-generator')" class="work-project password-generator" alt="image of the Password Generator">
+                <div onclick="projectClicked('work-project password-generator')" class="work-project password-generator"
+                    alt="image of the Password Generator">
                     <span class="span-background">
                         <h3>Password Generator</h3>
                         <span class="lower-text">Javascript</span>
-                    <!-- description label to each work item -->
+                        <!-- description label to each work item -->
                     </span>
                 </div>
                 <!--grounp-project DineInside-->
@@ -87,7 +92,7 @@
                     <span class="span-background">
                         <h3>DineInside</h3>
                         <span class="lower-text">website design</span>
-                    <!-- description label to each work item -->
+                        <!-- description label to each work item -->
                     </span>
                 </div>
                 <!--place holder2-->
@@ -95,15 +100,15 @@
                     <span class="span-background">
                         <h3>Easy poketbook</h3>
                         <span class="lower-text">full stack project</span>
-                    <!-- description label to each work item -->
+                        <!-- description label to each work item -->
                     </span>
                 </div>
                 <!--place holder3-->
-                <div onclick="projectClicked('comming-soon')" class="place-holder3" alt="comming soon image">
+                <div onclick="projectClicked('Most-to-coast')" class="Most-to-coast" alt="Most-to-coast">
                     <span class="span-background">
-                        <h3>Comming Soon</h3>
-                        <span class="lower-text">Unknow</span>
-                    <!-- description label to each work item -->
+                        <h3>Most-to-coast</h3>
+                        <span class="lower-text">full stack project</span>
+                        <!-- description label to each work item -->
                     </span>
                 </div>
             </div>
@@ -148,6 +153,17 @@
             var input = input;
             if (input == "easy-poketbook") {
                 window.open("https://fet101-app.herokuapp.com/");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "Most-to-coast") {
+                window.open("https://peaceful-journey-57215.herokuapp.com/main");
             } else {
                 return true;
             }
